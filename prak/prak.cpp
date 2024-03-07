@@ -34,7 +34,7 @@ void bubbleSortArray() {  // prosedur untuk mengurutkan array dengan metode bubb
 	int pass = 1; // step 1
 
 	do {
-		for(int j = 0; j <= n - 1 - pass; j++) { //step 2
+		for (int j = 0; j <= n - 1 - pass; j++) { //step 2
 			if (arr[j] > arr[j + 1]) { //step 3
 				int temp = arr[j];
 				arr[j] = arr[j + 1];
@@ -42,26 +42,24 @@ void bubbleSortArray() {  // prosedur untuk mengurutkan array dengan metode bubb
 			}
 		}
 		pass = pass + 1;  //step 4
-	} while (pass <=n);  //step 5
-
+	} while (pass <= n);  //step 
 }
-
 void display() {
 	cout << endl;
 	cout << "=================================" << endl;
-	cout << "Element array yang telah tersusun" << endl;
+	cout << "Elemen Array yang telah tersusun" << endl;
 	cout << "=================================" << endl;
 	for (int j = 0; j < n;j ++) {
-		cout << arr[j] << endl; //output setiap elemen array pada
+		cout << arr[j] << endl; //output setiap elemen array pada garis baru
 
 	}
-	cout << "jumlah pass = " << n - 1 << endl; //menampilkan total array
+	cout << "jumlah pass = " << n - 1 << endl; //menampilkan total angka dari elemen yang benar
 }
 
 int main()
 {
 	input(); //memanggil prosedur untuk mengimput data
-	bubbleSortArray(); //memanggil prosedur bubble
+	bubbleSortArray(); //memanggil prosedur bubblesort untuk proses mengurutkan data
 	display(); //memanggil prosedur untuk memanggilkan data yang telah urut
 	system("pause");
 

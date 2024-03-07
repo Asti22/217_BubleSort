@@ -49,7 +49,7 @@ void bubbleSortArray() {  // prosedur untuk mengurutkan array dengan metode bubb
 void display() {
 	cout << endl;
 	cout << "=================================" << endl;
-	cout << "Element Array yang telah tersusun" << endl;
+	cout << "Element array yang telah tersusun" << endl;
 	cout << "=================================" << endl;
 	for (int j = 0; j < n;j ++) {
 		cout << arr[j] << endl; //output setiap elemen array pada

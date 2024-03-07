@@ -42,7 +42,7 @@ void bubbleSortArray() {  // prosedur untuk mengurutkan array dengan metode bubb
 			}
 		}
 		pass = pass + 1;  //step 4
-	} while (pass <= n);  //step 
+	} while (pass <= n);  //step 5
 }
 void display() {
 	cout << endl;
